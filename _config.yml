@@ -1,0 +1,23 @@
+title: "Your Name | Portfolio"
+description: "Operations, engineering, and program leadership portfolio."
+url: "https://taofeeqilufoye.github.io"
+baseurl: ""
+lang: en
+author:
+  name: "Your Name"
+markdown: kramdown
+permalink: pretty
+timezone: America/Los_Angeles
+exclude:
+  - .agents
+  - PLAN.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .cache
+  - .config
+  - .local
+  - .replit
+  - attached_assets
+  - screenshots
+  - vendor

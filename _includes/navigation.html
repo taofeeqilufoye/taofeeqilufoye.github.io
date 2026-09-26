@@ -1,0 +1,12 @@
+<nav class="primary-nav" aria-label="Main navigation">
+  <ul>
+    {% for item in site.data.navigation %}
+      <li>
+        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+      </li>
+    {% endfor %}
+    <li>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme">Use dark theme</button>
+    </li>
+  </ul>
+</nav>
