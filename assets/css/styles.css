@@ -343,6 +343,51 @@ ul {
   color: var(--muted);
 }
 
+.experience-role {
+  max-width: 68ch;
+  margin-top: 2rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--line);
+}
+
+.experience-role:first-of-type {
+  margin-top: 1.8rem;
+}
+
+.experience-role h2 {
+  margin: 0 0 0.65rem;
+  padding: 0;
+  border: 0;
+  font-size: clamp(1.28rem, 3.5vw, 1.55rem);
+}
+
+.experience-role p {
+  margin-bottom: 0.55rem;
+}
+
+.experience-role > p:first-of-type {
+  color: var(--muted);
+  font-weight: 650;
+  line-height: 1.55;
+}
+
+.experience-role > p:nth-of-type(2) {
+  margin-bottom: 0.9rem;
+  color: var(--muted);
+  font-size: 0.93rem;
+}
+
+.experience-role ul {
+  max-width: 68ch;
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.experience-role li {
+  margin-block: 0.65rem;
+  padding-left: 0.15rem;
+}
+
 .site-footer {
   display: flex;
   align-items: center;
