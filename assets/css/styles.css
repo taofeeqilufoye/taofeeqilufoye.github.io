@@ -236,6 +236,33 @@ ul {
   margin: 2rem 0 0;
 }
 
+.home-focus {
+  margin: -0.35rem 0 1.1rem;
+  color: var(--accent);
+  font-size: clamp(1.1rem, 3vw, 1.35rem);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.home-actions .button-secondary {
+  background: var(--page);
+  color: var(--accent);
+}
+
+.home-actions .button-secondary:hover {
+  background: var(--soft-accent);
+  color: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+@media (max-width: 480px) {
+  .home-actions {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+
 .button {
   display: inline-flex;
   align-items: center;
