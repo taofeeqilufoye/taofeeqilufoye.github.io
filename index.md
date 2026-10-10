@@ -9,11 +9,13 @@ permalink: /
 
 # Hello, I’m **Your Name**.
 
-I work across frontline operations, engineering, and research and development. My experience includes building practical tools, improving complex operations, and developing technical teams.
+<p class="home-focus">MBA candidate · Operations &amp; Supply Chain</p>
 
-<p class="hero-actions">
-  <a class="button button-primary" href="{{ '/experience/' | relative_url }}">Explore my experience</a>
-  <a class="text-link" href="{{ '/about/' | relative_url }}">More about me <span aria-hidden="true">→</span></a>
+My background spans frontline operations, avionics engineering, and research and development. I have worked on process improvement, digital tools, and technical training.
+
+<p class="hero-actions home-actions">
+  <a class="button button-primary" href="{{ '/experience/' | relative_url }}">View Work Experience</a>
+  <a class="button button-secondary" href="{{ '/contact/' | relative_url }}">Contact Me</a>
 </p>
 
 ## Selected impact
